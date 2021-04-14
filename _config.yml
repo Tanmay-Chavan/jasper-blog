@@ -32,7 +32,8 @@ github_username:  jekyll
 # Build settings
 #theme: minima
 #theme: jekyll-theme-clean-blog
-remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll 
+#remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll 
+remote_theme: Tanmay-Chavan/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 

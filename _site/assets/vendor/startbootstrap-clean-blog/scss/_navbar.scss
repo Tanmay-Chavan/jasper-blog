@@ -2,18 +2,19 @@
 #mainNav {
   position: absolute;
   border-bottom: 1px solid $gray-200;
-  background-color: white;
+  background-color: $white; //white
   @include sans-serif-font;
   .navbar-brand {
     font-weight: 800;
-    color: $gray-800;
+    color: $gray-800;//$gray-800; 
   }
   .navbar-toggler {
     font-size: 12px;
     font-weight: 800;
     padding: 13px;
     text-transform: uppercase;
-    color: $gray-800;
+    color: #39FF14;//color: $gray-800;
+//    background-color: green;
   }
   .navbar-nav {
     > li.nav-item {
@@ -30,20 +31,22 @@
     background: transparent;
     .navbar-brand {
       padding: 10px 20px;
-      color: $white;
+      //background-color: green;
+      color: $white;//color: $white;
       &:focus,
       &:hover {
-        color: fade-out($white, .2);
+        color: fade-out($teal, 0);
       }
     }
     .navbar-nav {
+//      background-color: green;
       > li.nav-item {
         > a {
           padding: 10px 20px;
           color: $white;
           &:focus,
           &:hover {
-            color: fade-out($white, .2);
+            color: fade-out($teal, 0);
           }
         }
       }
@@ -67,22 +70,23 @@
       -webkit-transition: -webkit-transform 0.2s;
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
-      border-bottom: 1px solid darken($white, .05);
-      background-color: fade-out($white, .1);
+      border-bottom: 1px solid darken(#39FF14, .05);
+      background-color: fade-out(#39FF14, 0);
       .navbar-brand {
         color: $gray-900;
         &:focus,
         &:hover {
-          color: $primary;
+          color: $teal;
         }
       }
       .navbar-nav {
+ //       background-color: green;
         > li.nav-item {
           > a {
             color: $gray-900;
             &:focus,
             &:hover {
-              color: $primary;
+              color: $teal;
             }
           }
         }

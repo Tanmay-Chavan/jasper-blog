@@ -13,7 +13,7 @@
     font-weight: 800;
     padding: 13px;
     text-transform: uppercase;
-    color: #39FF14;//color: $gray-800;
+    color: #24E500 ; // #228B22 ; // #7E6E13 ; //#1DB700 ; //#39FF14;//color: $gray-800;
 //    background-color: green;
   }
   .navbar-nav {
@@ -35,7 +35,7 @@
       color: $white;//color: $white;
       &:focus,
       &:hover {
-        color: fade-out($teal, 0);
+        color: fade-out(#006980, 0); // $teal   #DBA40E #FFFF8A
       }
     }
     .navbar-nav {
@@ -46,7 +46,7 @@
           color: $white;
           &:focus,
           &:hover {
-            color: fade-out($teal, 0);
+            color: fade-out(#006980, 0);
           }
         }
       }
@@ -70,13 +70,13 @@
       -webkit-transition: -webkit-transform 0.2s;
       -moz-transition: -moz-transform 0.2s;
       transition: transform 0.2s;
-      border-bottom: 1px solid darken(#39FF14, .05);
-      background-color: fade-out(#39FF14, 0);
+      border-bottom: 1px solid darken(#24E500, .05);
+      background-color: fade-out(#24E500, 0);
       .navbar-brand {
         color: $gray-900;
         &:focus,
         &:hover {
-          color: $teal;
+          color: #006980 ; //#004452;
         }
       }
       .navbar-nav {
@@ -86,7 +86,7 @@
             color: $gray-900;
             &:focus,
             &:hover {
-              color: $teal;
+              color:#006980 ; //#00262e;
             }
           }
         }

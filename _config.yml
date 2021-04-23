@@ -27,6 +27,7 @@ baseurl: "/jasper-blog/" # the subpath of your site, e.g. /blog
 url: "https://tanmay-chavan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  Tanmay-Chavan
+instagram_username: _tanmaychavan
 
 # Build settings
 #theme: minima

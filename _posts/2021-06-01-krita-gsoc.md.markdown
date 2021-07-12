@@ -2,7 +2,7 @@
 layout: post
 title:  "A tale of two curves - stuff about my GSoC project"
 author: "Tanmay Chavan"
-date:   2021-04-14 20:47:59 +0530
+date:   2021-06-01 20:47:59 +0530
 categories: jekyll update
 background: '/img/EFXSes9UCfsyRVoNeQ2ZTB-1200-80.png'
 ---

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "The final post for my GSoC experience"
+author: "Tanmay Chavan"
+date:   2021-08-23 20:16:00 +0530
+categories: jekyll update
+background: '/img/wp7242563-1366x768-minimalist-wallpapers.jpg'
+---
+
+<p>Hello everyone! This blog marks the final update of my journey with Krita at GSoC.</p>
+
+<p> As of now, I managed to get the results of my code visible in the Krita workspace. There was a difference in the way Qt makes QPainterPaths for it's basic shapes, and how Krita passes them through KoShapes. With some hurdles, I guess it works for most of the simple operations. There was a bug which made the selection of order decide the output for union operations. This was weird. Apparently Qt's algorithm is sensitive to the shapes being clockwise or counterclockwise (the order of the elements). There still are a few bugs, but most of them are a result of the resubstitution algorithm. I guess Greiner-Horman is a better match for our requirements, as resubstitution get's too complicated and difficult to debug. The work product and a really detailed report can be found <a href="https://community.kde.org/GSoC/2021/StatusReports/TanmayChavan">here</a> .I plan on keep on working to fully finish this, and see it working perfectly.</p>
+
+<p> I learnt a lot in these 10 weeks. It was a wonderful wxperience. My mentors were really nice, and were helpful theoughout the project. The problem statement was really intersesting as well. It proved to be really challenging. The project is not fully complete yet; it works for a lot of cases now, but it fails for some cases as well, and I need to sort them out. There were some hindrances during the coding period, but I guess such obstacles will be there throughout life. I will keep on  working on this project, and see that it reaches completion. The final algorithm is extremely cool, and since I'm so invested in the entire subject of Computer Graphics now, it would be fun to implement an algorithm which does clipping and boolean operations for curves as well, instead of just line segments. I'm thankful for this experience to Krita, KDE and Google as well, for it has been a truly enriching experience which will have a huge impact on my career as an aspiring software developer - or maybe a computer scientist, who knows ;). Goodbye for now!</p>
